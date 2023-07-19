@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.filekeeper.client.PanelServerController">
+
+    <HBox>
+        <TextField fx:id="pathField" editable="false" HBox.hgrow="ALWAYS" />
+<!--        <Button text="Up" onAction="#btnUpPathAction"/>-->
+    </HBox>
+
+    <TableView fx:id="tableView" VBox.vgrow="ALWAYS"/>
+
+    <properties>
+        <ctrl><fx:reference source="controller"/> </ctrl>
+    </properties>
+
+</VBox>
